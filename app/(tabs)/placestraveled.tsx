@@ -14,8 +14,8 @@ export default function BlankIndex() {
     <GestureDetector gesture={swipe}>
     <View style={[styles.container,{backgroundColor:theme.background}]}>
       <StatusBar barStyle={colorScheme == 'dark' ? 'light-content' : 'dark-content'} />
-      <Text style={[styles.title,{color:theme.text}]}>Translater</Text>
-      <View style={[styles.hline,{backgroundColor: theme.icon}]}/>
+      <Text style={[styles.title,{color:theme.text}]}>Places Visited</Text>
+      <View style={[styles.hline,{backgroundColor: theme.icon}]}></View>
     </View>
     </GestureDetector>
   );
@@ -27,15 +27,15 @@ const styles = StyleSheet.create({
     alignItems:'center',
     paddingTop: 70,
   },
-  title: {
-    fontSize: 28,
-    fontWeight: '700',
-    marginBottom: 8,
+   title:{
+    fontWeight:'700',
+    fontSize: 28, 
+    paddingBottom:8,
   },
   hline:{
     height:1,
-    width: '100%',
+    width:'100%',
     marginVertical:10,
   }
 });
- 
+// ...existing code...
