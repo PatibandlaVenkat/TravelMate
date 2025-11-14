@@ -14,7 +14,7 @@ export default function BlankIndex() {
     <GestureDetector gesture={swipe}>
     <View style={[styles.container,{backgroundColor:theme.background}]}>
       <StatusBar barStyle={colorScheme == 'dark' ? 'light-content' : 'dark-content'} />
-      <Text style={[styles.title,{color:theme.text}]}>Memories</Text>
+      <Text style={[styles.title,{color:theme.headtext}]}>Memories</Text>
       <View style={[styles.hline,{backgroundColor: theme.icon}]}></View>
     </View>
     </GestureDetector>
