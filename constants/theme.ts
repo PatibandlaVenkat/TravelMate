@@ -17,6 +17,7 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: '#0a7ea4',
+    border: '#e0e0e0',
   },
   dark: {
     headtext: '#B8A5FF',
@@ -26,6 +27,7 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected:'#fff',
+    border: '#555',
   },
 };
 
